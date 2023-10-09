@@ -8,6 +8,10 @@
   --border:1.2rem solid #222427;
 
 }
+.header{
+  background-color: #21252940;
+  border-bottom: none;
+}
 
 body {
   font-family: "Roboto", sans-serif;

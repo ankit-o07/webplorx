@@ -163,6 +163,10 @@
     .slide .content h3{
         font-size: 2.7rem;
     }
+
+    .slideshow{
+        height: 50vh;
+    }
     
     .slide .content p{
         font-size: 1.7rem;
