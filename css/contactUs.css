@@ -243,3 +243,8 @@ label.error {
 .button .button_text a{
   color: #000;  
 }
+
+.col-md-4 .contact-info{
+  font-size: 1.2rem;
+
+}

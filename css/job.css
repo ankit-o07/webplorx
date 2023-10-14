@@ -25,6 +25,7 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+    overflow-y: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
     
@@ -40,6 +41,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
 
 
@@ -62,6 +64,7 @@ body{
     background-size: cover;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    /* background-position: center; */
 }
 
 section{
@@ -273,6 +276,24 @@ section{
 }
 
 @media (max-width: 768px){
+  body{
+    display: block;
+    margin-top: 30%;
+    
+  }
+  
+  .header h1{
+    font-size: 30px;
+  }
+
+  .come p{
+    /* margin-left: 15%; */
+    text-align: center;
+    margin-top: 20%;
+  }
+  .come h3{
+    font-size: 3rem;
+  }
 
   #dscontact{
     display: none;
@@ -310,9 +331,13 @@ section{
 
 }
 
+
 @media (max-width: 450px){
   html{
     font-size: 50%;
+  }
+  .come p{
+    margin-top: 40%;
   }
 }
 .come p{
@@ -443,3 +468,42 @@ section{
   }
 }
 
+@media (max-width: 768px){
+  body{
+    display: block;
+    margin-top: 10%;
+    
+  }
+  
+
+  .come p{
+    /* margin-left: 15%; */
+    text-align: center;
+  }
+  .come h3{
+    font-size: 10rem;
+    margin-inline: 5%;
+  }
+
+}
+
+@media (max-width: 700px){
+  .come h3{
+    font-size: 8rem;
+    margin: auto;
+
+  }
+
+}
+
+@media (max-width: 650px){
+  .come{
+    margin-top:40%;
+    
+  }
+  .come h3{
+    font-size: 5rem;
+
+  }
+
+}
