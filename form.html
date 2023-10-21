@@ -118,10 +118,10 @@
                                         placeholder="Write your message"></textarea>
                             </div>
                             <div class="row">
-                                <div class="resume">
+                                <!-- <div class="resume">
                                     <label for="action" class="col-form-label"><br></br>Upload your resume *<br></br></label>
                                 <input type="file" id="myFile" name="filename">
-                                </div>
+                                </div> -->
                             </div>
         
                             <div class="row">
@@ -168,13 +168,13 @@
             var phone = document.getElementById("phone").value;
             var email = document.getElementById("email").value;
             var mess = document.getElementById("message").value;
-            var resume = document.getElementById("myFile").value;
-            var body = "Name: " + name + "<br>Email: " + email + "<br>Phone: " + phone + "<br>Resume: " + resume + "<br>message: " + mess;
+            // var resume = document.getElementById("myFile").value;
+            var body = "Name: " + name + "<br>Email: " + email + "<br>Phone: " + phone +  "<br>message: " + mess;
             console.log(body);
             Email.send({
             Host : "smtp.elasticemail.com",
             Username : "ammy.sharma2003@gmail.com",
-            Password : "9ED0B8F8B172663DBF3EEB681652953C1D3C",
+            Password : "CAB47F1C5FF2000967AD0CED5CE6F05CD1C7",
             To : 'info@webplorax.com',
             From : "ammy.sharma2003@gmail.com",
             Subject : "New contact from website",
